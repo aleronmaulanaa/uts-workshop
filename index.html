@@ -1,141 +1,9 @@
-<!-- ORIGINAL -->
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body class="bg-gray-100 text-gray-900 font-sans">
-
-    <header class="bg-white py-4 border-b">
-      <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
-        <div class="text-xl font-bold">LOREM</div>
-        <nav class="space-x-4 text-sm">
-          <a href="#" class="text-gray-600 hover:text-black">Link 1</a>
-          <a href="#" class="text-gray-600 hover:text-black">Link 2</a>
-          <a href="#" class="text-gray-600 hover:text-black">Link 3</a>
-          <a href="#" class="text-gray-600 hover:text-black">Link 4</a>
-          <a href="#" class="bg-white border border-gray-300 px-4 py-2 rounded text-sm hover:bg-gray-100">Sign Up</a>
-        </nav>
-      </div>
-    </header>
-
-    <section class="text-center py-20 px-4 relative bg-gray-100">
-      <h1 class="text-3xl md:text-4xl font-bold mb-4">Your Best Value Proposition</h1>
-      <p class="text-gray-600 mb-6 max-w-xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <button class="bg-black text-white px-6 py-2 rounded mb-10">Get started</button>
-
-      <div class="max-w-3xl mx-auto bg-white shadow-md border rounded overflow-hidden p-4">
-        <div class="bg-gray-200 h-60 w-full rounded"></div>
-      </div>
-    </section>
-
-    <section class="text-center py-12 bg-gray-100">
-      <p class="italic text-gray-700 max-w-3xl mx-auto mb-4">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-      </p>
-      <p class="text-sm text-gray-600">Maria Lopez, VP of Design at Meshery</p>
-    </section>
-
-    <section class="bg-black text-white py-16">
-      <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-1/2">
-          <h2 class="text-2xl font-bold mb-4">Your Best Value Proposition</h2>
-          <p class="mb-3 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p class="text-sm mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="flex items-center space-x-3">
-            <div class="w-10 h-10 rounded-full bg-white"></div>
-            <p class="text-sm">Dhaka Oke, Product Designer</p>
-          </div>
-        </div>
-        <div class="md:w-1/2">
-          <div class="bg-white h-64 w-full rounded"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-16 text-center bg-gray-100">
-      <h2 class="text-2xl font-bold mb-2">Your Best Value Proposition</h2>
-      <p class="text-gray-600 text-sm mb-10">"If you don't try this app, you won't become the superhero you were meant to be"</p>
-      <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
-        <div class="bg-white shadow p-6">
-          <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-          <h3 class="font-semibold mb-2">Special Feature</h3>
-          <a href="#" class="text-blue-600 text-sm">See More ›</a>
-        </div>
-        <div class="bg-white shadow p-6">
-          <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-          <h3 class="font-semibold mb-2">Special Feature</h3>
-          <a href="#" class="text-blue-600 text-sm">See More ›</a>
-        </div>
-        <div class="bg-white shadow p-6">
-          <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-          <h3 class="font-semibold mb-2">Special Feature</h3>
-          <a href="#" class="text-blue-600 text-sm">See More ›</a>
-        </div>
-        <div class="bg-white shadow p-6">
-          <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-          <h3 class="font-semibold mb-2">Special Feature</h3>
-          <a href="#" class="text-blue-600 text-sm">See More ›</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-16 bg-white">
-      <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
-        <div class="md:w-1/2 bg-black w-full h-64"></div>
-        <div class="md:w-1/2">
-          <h2 class="text-xl font-bold mb-4">Feature that is amazing</h2>
-          <p class="text-sm text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button class="border border-gray-600 text-gray-700 px-5 py-2 rounded">Learn More</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="text-center py-16 bg-gray-100">
-      <h2 class="text-2xl font-bold mb-4">Try the product out for free.</h2>
-      <div class="max-w-sm mx-auto">
-        <input type="email" placeholder="email" class="w-full px-4 py-2 border mb-4 rounded text-sm" />
-        <input type="password" placeholder="password" class="w-full px-4 py-2 border mb-4 rounded text-sm" />
-        <button class="bg-black text-white px-6 py-2 rounded w-full">Start free trial</button>
-      </div>
-    </section>
-
-    <footer class="bg-black text-white py-16">
-      <div class="max-w-7xl mx-auto px-4 text-center">
-        <nav class="text-sm mb-8 flex flex-wrap justify-center space-x-6">
-          <a href="#">Product</a>
-          <a href="#">Features</a>
-          <a href="#">Resources</a>
-          <a href="#">TRADE</a>
-          <a href="#">About</a>
-          <a href="#">Blog</a>
-          <a href="#">Support</a>
-        </nav>
-        <div class="mb-6 space-x-4 text-xl">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-linkedin-in"></i>
-        </div>
-        <p class="text-sm text-gray-400">© 2010 – 2020 &nbsp; Privacy — Terms</p>
-      </div>
-    </footer>
-
-  </body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privat Al Faiz</title>
+    <title>Privat Skill UP</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-[#920010] text-white font-sans">
@@ -143,8 +11,8 @@
     <header class="py-4 sticky top-0 z-50 bg-[#920010]">
       <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <div class="text-xl font-bold flex items-center gap-2">
-          <img src="LOGO_URL_KAMU" alt="Al Faiz" class="h-8" />
-          <span>AL FAIZ</span>
+          <img src="LOGO_URL_KAMU" alt="" class="h-8" />
+          <span>Skill UP</span>
         </div>
         <nav class="space-x-4 text-sm hidden md:block">
           <a href="#" class="hover:text-yellow-400">Beranda</a>
@@ -152,12 +20,10 @@
           <a href="#" class="hover:text-yellow-400">Keunggulan</a>
           <a href="#" class="hover:text-yellow-400">Testimoni</a>
           <a href="#" class="hover:text-yellow-400">Promo</a>
-          <a href="#" class="hover:text-yellow-400">Panduan</a>
-          <a href="#" class="hover:text-yellow-400">FAQ</a>
         </nav>
         <div class="space-x-2">
-          <button class="bg-pink-300 text-white px-4 py-2 rounded-full text-sm">Daftar</button>
-          <button class="bg-yellow-400 text-black px-4 py-2 rounded-full text-sm">Masuk</button>
+          <button class="bg-white/20 text-white px-4 py-2 rounded-full font-semibold">Daftar</button>
+          <button class="bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold">Masuk</button>
         </div>
       </div>
     </header>
@@ -165,9 +31,9 @@
     <section class="relative bg-[#920010] pb-72">
       <div class="max-w-7xl mx-auto px-4 py-20 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         <div class="md:w-1/2 text-left">
-          <h1 class="text-3xl md:text-5xl font-bold leading-snug mb-6 text-white">
-            Jadikan Belajarmu Lebih Seru<br />
-            Bersama Privat Al Faiz
+          <h1 class="text-3xl md:text-5xl font-normal leading-snug mb-6 text-white">
+            Jadikan Belajarmu Lebih <br />
+            Seru Bersama Privat Skill UP
           </h1>
           <p class="text-lg text-white mb-8">Belajar bareng super teacher dan teman ambis untuk berjuang meraih impian</p>
           <div class="flex flex-wrap gap-4">
@@ -194,7 +60,7 @@
               </svg>
             </div>
             <p class="font-bold text-black text-lg">1,1 jt +</p>
-            <p class="text-gray-500 text-sm">Siswa Al Faiz</p>
+            <p class="text-gray-500 text-sm">Siswa Skill UP</p>
           </div>
 
           <div class="text-center flex-1 min-w-[120px]">
@@ -247,17 +113,17 @@
     <!-- New Section Start -->
     <section class="py-20 px-4 text-center bg-white">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-        Bersama Privat Al Faiz<br />
+        Bersama Privat Skill UP<br />
         bikin Belajarmu makin Seru!
       </h2>
       <p class="mt-4 text-gray-500 text-lg max-w-xl mx-auto">
-        Temukan Pengalaman Belajar yang Intens dan Inspiratif<br />dengan Privat Al Faiz
+        Temukan Pengalaman Belajar yang Intens dan Inspiratif<br />dengan Privat Skill UP
       </p>
 
       <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 max-w-6xl mx-auto">
         <!-- Belajar Seru -->
         <div class="flex flex-col items-center text-center px-4">
-          <img src="https://i.imgur.com/ivS8sZV.png" alt="Belajar Seru" class="w-24 h-24 mb-4" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zYAkNHQPkVMtT4j0VcJKscYSDFhMW5Oumw&s" alt="Belajar Seru" class="w-24 h-24 mb-4" />
           <h3 class="text-lg font-semibold text-gray-900">Belajar Seru</h3>
           <p class="mt-2 text-gray-500 text-sm">
             Belajar bareng super teacher mudah<br />dimengerti dan gak ngebosenin!
@@ -269,7 +135,7 @@
           <img src="https://i.imgur.com/k1Vo09E.png" alt="Materi Terupdate" class="w-24 h-24 mb-4" />
           <h3 class="text-lg font-semibold text-gray-900">Materi Terupdate</h3>
           <p class="mt-2 text-gray-500 text-sm">
-            Belajar materi yang pasti-pasti aja dan tentunya<br />sesuai kisi-kisi terbaru
+            Belajar materi yang pasti-pasti aja dan tentunya sesuai kisi-kisi terbaru
           </p>
         </div>
 
@@ -278,7 +144,7 @@
           <img src="https://i.imgur.com/nmavdR6.png" alt="Try Out" class="w-24 h-24 mb-4" />
           <h3 class="text-lg font-semibold text-gray-900">Try Out</h3>
           <p class="mt-2 text-gray-500 text-sm">
-            Soal Try Out HOTS sesuai kisi-kisi terbaru<br />lengkap dengan pembahasannya
+            Soal Try Out HOTS sesuai kisi-kisi terbaru lengkap dengan pembahasannya
           </p>
         </div>
 
@@ -287,7 +153,7 @@
           <img src="https://i.imgur.com/svLJzDx.png" alt="Bestie Ambis" class="w-24 h-24 mb-4" />
           <h3 class="text-lg font-semibold text-gray-900">Bestie Ambis</h3>
           <p class="mt-2 text-gray-500 text-sm">
-            Teman-teman ambis untuk berjuang bersama<br />raih impian
+            Teman-teman ambis untuk berjuang bersama raih impian
           </p>
         </div>
       </div>
@@ -308,85 +174,292 @@
           <div class="md:w-1/2">
             <h2 class="text-3xl font-bold leading-snug mb-4">
               Kenapa Harus Belajar dan Bimbingan<br />
-              di Privat Al Faiz?
+              di Privat Skill UP?
             </h2>
             <p class="text-base leading-relaxed mb-3">
-              Menghadapi ujian tentunya perlu persiapan yang matang serta strategi yang tepat. Privat Al Faiz telah berdiri sejak 2014 di Metro, Lampung. Sejak 2020, privatalfaiz.id mulai berkembang dengan membuka bimbingan belajar online sehingga para pejuang PTN/Kedinasan/CPNS memiliki kesempatan untuk belajar.
+              Menghadapi ujian tentunya perlu persiapan yang matang serta strategi yang tepat. Privat Skill UP telah berdiri sejak 2014 di Metro, Lampung. Sejak 2020, privatalskillup.id mulai berkembang dengan membuka bimbingan belajar online sehingga para pejuang PTN/Kedinasan/CPNS memiliki kesempatan untuk belajar Dengan tutor yang berpengalaman, privatalskillup.id mampu meloloskan ribuan peserta ke PTN, Sekolah Kedinasan, dan menjadi ASN. Bersama Privat Skill UP, Belajar Nyaman Prestasi Mengesankan.
             </p>
-            <p class="text-base leading-relaxed">
-              Dengan tutor yang berpengalaman, privatalfaiz.id mampu meloloskan ribuan peserta ke PTN, Sekolah Kedinasan, dan menjadi ASN. Bersama Privat Al Faiz, Belajar Nyaman Prestasi Mengesankan.
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-full bg-white"></div>
+              <p class="text-sm">Aleron, Super Teacher Matematika</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-16 text-center bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+          <h2 class="text-3xl font-bold text-black mb-2">Paket Belajar Terbaik untuk Persiapan Ujianmu</h2>
+          <p class="text-gray-500 text-base mb-10">Temukan Paket Belajar yang Sesuai dengan Tujuan dan Kebutuhanmu</p>
+        </div>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+      
+          <!-- Card 1: SNBT -->
+          <div class="bg-white shadow-md rounded-xl p-6 flex items-start gap-4 order-1">
+            <img src="/path/to/snbt-icon.png" alt="SNBT" class="w-10 h-10 object-contain" />
+            <div class="text-left">
+              <h3 class="font-semibold text-lg text-black">SNBT</h3>
+              <p class="text-gray-500 text-sm">Kejar Universitas dan Sekolah <br/> Tinggi impianmu</p>
+            </div>
+          </div>
+      
+          <!-- Card 2: Ujian Mandiri -->
+          <div class="bg-white shadow-md rounded-xl p-6 flex items-start gap-4 order-2">
+            <img src="/path/to/ujian-icon.png" alt="Ujian Mandiri" class="w-10 h-10 object-contain" />
+            <div class="text-left">
+              <h3 class="font-semibold text-lg text-black">Ujian Mandiri</h3>
+              <p class="text-gray-500 text-sm">Persiapkan dirimu untuk <br/> mengikuti ujian mandiri</p>
+            </div>
+          </div>
+      
+          <!-- Card 3: SKD -->
+          <div class="bg-white shadow-md rounded-xl p-6 flex items-start gap-4 order-3">
+            <img src="/path/to/skd-icon.png" alt="SKD" class="w-10 h-10 object-contain" />
+            <div class="text-left">
+              <h3 class="font-semibold text-lg text-black">SKD</h3>
+              <p class="text-gray-500 text-sm">Ayo taklukkan ujian Seleksi <br/> Kompetensi Dasar CASN</p>
+            </div>
+          </div>
+      
+          <!-- Card 4: BUMN - posisinya di bawah Ujian Mandiri -->
+          <div class="bg-white shadow-md rounded-xl p-6 flex items-start gap-4 order-4 sm:col-start-2 lg:col-start-2">
+            <img src="/path/to/bumn-icon.png" alt="BUMN" class="w-10 h-10 object-contain" />
+            <div class="text-left">
+              <h3 class="font-semibold text-lg text-black">BUMN</h3>
+              <p class="text-gray-500 text-sm">Sikat Habis soal ujian Tes <br/> Kemampuan Dasar AkHLAK <br/> BUMN</p>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+  
+      <section class="py-16 bg-[#FFF3F3] text-center">
+        <div class="max-w-4xl mx-auto px-4">
+          <h2 class="text-3xl font-bold text-black mb-2">PERSIAPAN UTBK & SKD 2025</h2>
+          <p class="text-gray-500 text-base mb-10">Dapatkan harga spesial agar kamu bisa lebih hemat!</p>
+        </div>
+      
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4 justify-center">
+          
+          <!-- Card 1 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col justify-between" style="width: 312px; height: 479px;">
+            <div>
+              <img src="/path/to/icon.png" alt="Icon" class="mx-auto mb-2 w-8 h-8">
+              <div class="bg-gray-100 bg-opacity-70 py-2 px-3 rounded mb-4">
+                <h3 class="text-sm font-semibold text-black leading-snug">
+                  BUNDLING 3 TO FULLTEST<br>SNBT 2025 (PART 1, 2, 3)
+                </h3>
+              </div>
+              <div class="text-2xl font-semibold text-black mb-4">
+                Rp 30rb <span class="text-[#B11226] line-through text-base font-normal">Rp 60rb</span>
+              </div>
+              <p class="text-sm text-black font-semibold mb-1">3 Paket Try Out HOTS (Part 1, 2, 3)</p>
+              <p class="text-xs text-[#B11226]">Jumlah Soal dan Waktu Pengerjaan <br/> Sesuai Aturan Terbaru</p>
+            </div>
+            <button class="mt-6 bg-[#B11226] text-white px-6 py-2 rounded-full text-sm font-semibold">Beli Sekarang</button>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col justify-between" style="width: 312px; height: 479px;">
+            <div>
+              <img src="/path/to/icon.png" alt="Icon" class="mx-auto mb-2 w-8 h-8">
+              <div class="bg-gray-100 bg-opacity-70 py-2 px-3 rounded mb-4">
+                <h3 class="text-sm font-semibold text-black leading-snug">
+                  REKAMAN KELAS UTBK–<br>SNBT 2025 PART 1
+                </h3>
+              </div>
+              <div class="text-2xl font-semibold text-black mb-4">
+                Rp 145rb <span class="text-[#B11226] line-through text-base font-normal">Rp 200rb</span>
+              </div>
+              <p class="text-sm text-black font-semibold mb-1">10 Video Belajar Bareng Super Teacher Via Zoom</p>
+              <p class="text-xs text-[#B11226]">Bahas soal lengkap dengan materinya</p>
+            </div>
+            <button class="mt-6 bg-[#B11226] text-white px-6 py-2 rounded-full text-sm font-semibold">Beli Sekarang</button>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col justify-between" style="width: 312px; height: 479px;">
+            <div>
+              <img src="/path/to/icon.png" alt="Icon" class="mx-auto mb-2 w-8 h-8">
+              <div class="bg-gray-100 bg-opacity-70 py-2 px-3 rounded mb-4">
+                <h3 class="text-sm font-semibold text-black leading-snug">
+                  BUNDLING 3 TO SKD<br>2025 (PART 1, 2, 3)
+                </h3>
+              </div>
+              <div class="text-2xl font-semibold text-black mb-4">
+                Rp 30rb <span class="text-[#B11226] line-through text-base font-normal">Rp 60rb</span>
+              </div>
+              <p class="text-sm text-black font-semibold mb-1">3 Paket Try Out HOTS (Part 1, 2, 3)</p>
+              <p class="text-xs text-[#B11226]">Model Soal Sesuai SKD Terbaru</p>
+            </div>
+            <button class="mt-6 bg-[#B11226] text-white px-6 py-2 rounded-full text-sm font-semibold">Beli Sekarang</button>
+          </div>
+      
+        </div>
+      </section>
+      
+      <section class="py-20 bg-white text-center">
+        <!-- Heading -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-semibold text-black mb-2">Kata Mereka Tentang Privat Skill UP</h2>
+          <p class="text-gray-500 text-sm">Berbagai kisah sukses alumni Privat Skill UP</p>
+        </div>
+      
+        <!-- Card Container -->
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <!-- Card 1 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 text-left">
+            <div class="flex items-center gap-4 mb-4">
+              <img src="/path/to/foto1.jpg" alt="Foto Yudha" class="w-12 h-12 rounded-full object-cover">
+              <div>
+                <h3 class="text-sm font-bold text-black">YUDHA FIRMANSYAH</h3>
+                <p class="text-xs text-[#B11226] font-semibold">SKOR SKD 441</p>
+              </div>
+            </div>
+            <p class="text-sm text-black leading-relaxed">
+              SUMPAH YA GA NYANGKA BANGET sebegitu miripnya soal soal latihan dan try out di skillup dengan saat tes kemarin, walau soal beda tapi konsep soalnya itu udah ketahuan banget arahnya kemana jadi lebih memudahkan untuk memahami soal, banyak banget cerita di bimbel ini SANGAT MANTAP POKOKNYA...
+            </p>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 text-left">
+            <div class="flex items-center gap-4 mb-4">
+              <img src="/path/to/foto2.jpg" alt="Foto Andre" class="w-12 h-12 rounded-full object-cover">
+              <div>
+                <h3 class="text-sm font-bold text-black">ANDRE SIMBOLON</h3>
+                <p class="text-xs text-[#B11226] font-semibold">SKOR SKD 433</p>
+              </div>
+            </div>
+            <p class="text-sm text-black leading-relaxed">
+              Soal tes skd yg keluar kemarin sesuai dengan kelas online batch 1 dan batch 2 di skillup kakk.. semua yg dipelajari tiap bab nya emang berguna banget dan saran pengerjaan yg diberikan kak ale juga sangat cukup...
             </p>
           </div>
         </div>
-      </section>
-  
-      <section class="py-16 text-center bg-gray-100">
-        <h2 class="text-2xl font-bold mb-2">Your Best Value Proposition</h2>
-        <p class="text-gray-600 text-sm mb-10">"If you don't try this app, you won't become the superhero you were meant to be"</p>
-        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
-          <div class="bg-white shadow p-6">
-            <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-            <h3 class="font-semibold mb-2">Special Feature</h3>
-            <a href="#" class="text-blue-600 text-sm">See More ›</a>
+    
+        <!-- Dots & Nav -->
+        <div class="flex justify-center items-center mt-10 gap-4">
+          <button class="w-8 h-8 flex items-center justify-center rounded-full bg-[#B11226] text-white text-lg">
+            &#10094;
+          </button>
+          <div class="flex gap-2">
+            <span class="w-2 h-2 bg-[#B11226] rounded-full"></span>
+            <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+            <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+            <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
           </div>
-          <div class="bg-white shadow p-6">
-            <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-            <h3 class="font-semibold mb-2">Special Feature</h3>
-            <a href="#" class="text-blue-600 text-sm">See More ›</a>
-          </div>
-          <div class="bg-white shadow p-6">
-            <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-            <h3 class="font-semibold mb-2">Special Feature</h3>
-            <a href="#" class="text-blue-600 text-sm">See More ›</a>
-          </div>
-          <div class="bg-white shadow p-6">
-            <div class="bg-black w-12 h-12 mb-4 mx-auto"></div>
-            <h3 class="font-semibold mb-2">Special Feature</h3>
-            <a href="#" class="text-blue-600 text-sm">See More ›</a>
-          </div>
+          <button class="w-8 h-8 flex items-center justify-center rounded-full bg-[#B11226] text-white text-lg">
+            &#10095;
+          </button>
         </div>
+
       </section>
-  
-      <section class="py-16 bg-white">
-        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
-          <div class="md:w-1/2 bg-black w-full h-64"></div>
-          <div class="md:w-1/2">
-            <h2 class="text-xl font-bold mb-4">Feature that is amazing</h2>
-            <p class="text-sm text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button class="border border-gray-600 text-gray-700 px-5 py-2 rounded">Learn More</button>
-          </div>
+
+<section class="text-center pt-16 pb-60 bg-[#FFF3F3] relative z-0">
+  <h2 class="text-3xl md:text-4xl font-bold text-[#920010] mb-4">Formulir Pendaftaran</h2>
+  <p class="text-gray-600 mb-8 text-base">Daftarkan dirimu sekarang dan mulai perjalanan belajarmu bersama Privat Skill UP</p>
+
+  <div class="max-w-md mx-auto bg-white shadow-xl rounded-2xl p-8">
+    <form>
+      <div class="mb-4 text-left">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan nama lengkapmu" class="w-full px-4 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#920010]" required />
+      </div>
+      <div class="mb-4 text-left">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+        <input type="email" placeholder="Contoh: kamu@gemail.com" class="w-full px-4 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#920010]" required />
+      </div>
+      <div class="mb-4 text-left">
+        <label class="block text-sm font-medium text-gray-700 mb-1">No. WhatsApp</label>
+        <input type="tel" placeholder="Contoh: 081234567890" class="w-full px-4 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#920010]" required />
+      </div>
+      <div class="mb-6 text-left">
+        <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+        <input type="password" placeholder="Buat password" class="w-full px-4 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-[#920010]" required />
+      </div>
+      <button type="submit" class="w-full bg-[#920010] text-white font-semibold py-2 rounded-md hover:bg-[#7a0010] transition duration-200">
+        Daftar Sekarang
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- <section class="relative z-0 bg-[#920010] pt-52"> -->
+  <section class="relative bg-[#920010] z-0">
+  <!-- Kurva dipindah ke sini -->
+  <div class="absolute -top-20 left-0 w-full overflow-hidden leading-none z-10">
+    <svg class="w-full h-48" viewBox="0 0 1200 240" fill="#FFF3F3" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M0,240 C100,40 1100,40 1200,240 L1200,0 L0,0 Z"/>
+    </svg>
+  </div>
+
+
+  <!-- Kotak ajakan -->
+  <div class="absolute -top-28 left-1/2 transform -translate-x-1/2 z-20">
+    <div class="bg-[#FF7A00] text-white rounded-[30px] px-10 py-8 shadow-lg max-w-4xl w-[90vw]">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold mb-2">Yuk Pilih Paket Belajarmu!</h2>
+          <p class="text-sm md:text-base">
+            Buat akunmu sekarang dan belajar seru bareng Super Teacher Privat Skill UP.<br />
+            Di Privat Skill UP, belajar nyaman prestasi mengesankan.
+          </p>
+          <button class="mt-4 bg-[#920010] text-white font-bold px-6 py-2 rounded-full shadow-md">Pilih Paket Belajar</button>
         </div>
-      </section>
-  
-      <section class="text-center py-16 bg-gray-100">
-        <h2 class="text-2xl font-bold mb-4">Try the product out for free.</h2>
-        <div class="max-w-sm mx-auto">
-          <input type="email" placeholder="email" class="w-full px-4 py-2 border mb-4 rounded text-sm" />
-          <input type="password" placeholder="password" class="w-full px-4 py-2 border mb-4 rounded text-sm" />
-          <button class="bg-black text-white px-6 py-2 rounded w-full">Start free trial</button>
+        <img src="/path/to/image.png" alt="Siswa Skill UP" class="w-40 h-auto" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer tetap -->
+  <footer class="relative z-10 text-white pt-32 pb-10">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <img src="/logo.svg" alt="Logo Skill UP" class="h-10 mb-4" />
+        <p class="text-sm text-white mb-4">
+          Penyedia layanan bimbel online.<br />
+          Untuk persiapan UTBK-SNBT, Ujian Mandiri, SKD CPNS & Kedinasan, RB BUMN, dan PPPK dengan pembelajaran yang berkualitas.
+        </p>
+        <div class="flex space-x-3 text-xl">
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
         </div>
-      </section>
-  
-      <footer class="bg-black text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-          <nav class="text-sm mb-8 flex flex-wrap justify-center space-x-6">
-            <a href="#">Product</a>
-            <a href="#">Features</a>
-            <a href="#">Resources</a>
-            <a href="#">TRADE</a>
-            <a href="#">About</a>
-            <a href="#">Blog</a>
-            <a href="#">Support</a>
-          </nav>
-          <div class="mb-6 space-x-4 text-xl">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-          <p class="text-sm text-gray-400">© 2010 – 2020 &nbsp; Privacy — Terms</p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm">
+        <div>
+          <h3 class="font-bold mb-2">EXPLORE</h3>
+          <ul class="space-y-1">
+            <li><a href="#">TENTANG KAMI</a></li>
+            <li><a href="#">TESTIMONIALS</a></li>
+            <li><a href="#">PAKET BELAJAR</a></li>
+          </ul>
         </div>
-      </footer>  
+        <div>
+          <h3 class="invisible mb-2">-</h3>
+          <ul class="space-y-1">
+            <li><a href="#">LAYANAN CUSTOMER 1</a></li>
+            <li><a href="#">LAYANAN CUSTOMER 2</a></li>
+            <li><a href="#">TERMS & CONDITION</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="invisible mb-2">-</h3>
+          <ul class="space-y-1">
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li><a href="#">TOKO Skill UP</a></li>
+            <li><a href="#">LAGU Skill UP</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="mt-10 text-center text-sm border-t border-white/30 pt-6 text-white">
+      © Copyright 2023, All Rights Reserved by Privat Skill UP
+    </div>
+  </footer>
+</section>
 
   </body>
 </html>
